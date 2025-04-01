@@ -1,8 +1,9 @@
-#Sortify
 📂 Sortify - Advanced File Sorting Tool 🧹
+
 Sortify is a command-line tool designed to help you organize files into appropriate categories and subcategories with ease. It supports multiple sorting options, including sorting by file types, managing subcategories, and removing empty folders. It's built to make your file management more efficient!
 ________________________________________
 🚀 Features
+
 •	Sort files by type (e.g., .jpg, .pdf, .cpp, etc.) into predefined categories.
 •	Subcategory sorting: Move files into subfolders based on their types (e.g., Java and C++ files in the "Code" category).
 •	Empty folder removal: Delete empty folders after sorting files.
@@ -11,6 +12,7 @@ ________________________________________
 •	Move files to the main directory: Move all files from subdirectories to the main directory and remove empty directories.
 ________________________________________
 🛠️ Installation
+
 You can easily use this tool by cloning the repository and running the script in your terminal.
 1.	Clone the repository:
 2.	git clone https://github.com/M-INDN-SEDTA/Sortify.git
@@ -20,6 +22,7 @@ You can easily use this tool by cloning the repository and running the script in
 6.	python sort.py [options]
 ________________________________________
 📑 Usage
+
 Here’s how you can use Sortify to keep your files well-organized:
 1. Sort files by type into category folders
 Sorts all files into their appropriate categories like Documents, Images, Videos, etc.
@@ -56,6 +59,7 @@ ________________________________________
 Whenever a folder or file is deleted, the tool will log the names of those folders into a text file called SortTool_removedFolders.txt.
 ________________________________________
 ⚙️ Arguments/Flags
+
 Flag	Description	Example
 -d <depth>	Set the depth range for sorting	-d 01 (Sort from current directory and 1 level subdirectory)
 -sr	Move files from subdirectories to the main directory	-sr
@@ -69,6 +73,7 @@ Flag	Description	Example
 -ec	Exclude the current directory from sorting	-ec
 ________________________________________
 🌍 Use Case Examples
+
 Example 1: Sort files by category in the current directory
 Sort all files in the current directory into category folders like Documents, Images, etc.
 python sort.py
@@ -80,18 +85,21 @@ Move all files from subdirectories to the main directory and delete any empty fo
 python sort.py -sr -srm
 ________________________________________
 📝 Important Notes
+
 •	The script does not overwrite existing files unless specified, and duplicate files will be renamed (e.g., file.txt becomes file1.txt).
 •	If you want to sort only certain files or directories, you can use the -i flag to include them and the -e flag to exclude them.
 •	Always double-check before using the -srm or -em flags, as they will delete folders from your file system.
 ________________________________________
 🎉 Contributing
+
 Feel free to contribute to Sortify by forking the repository, making improvements, and submitting pull requests. Any help to improve the functionality or add more sorting features is greatly appreciated!
 ________________________________________
 📄 License
+
 This tool is licensed under the MIT License. See the LICENSE file for more details.
 ________________________________________
-🙏 Acknowledgments
+🌟 Acknowledgments
 Special thanks to all contributors for their support and feedback. Thanks for using Sortify to organize your files efficiently! 🙌
 ________________________________________
-🧹 Happy Sorting! ✨
+✨ Happy Sorting! ✨
 
