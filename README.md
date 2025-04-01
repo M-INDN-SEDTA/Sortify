@@ -1,3 +1,4 @@
+#Sortify
 📂 Sortify - Advanced File Sorting Tool 🧹
 Sortify is a command-line tool designed to help you organize files into appropriate categories and subcategories with ease. It supports multiple sorting options, including sorting by file types, managing subcategories, and removing empty folders. It's built to make your file management more efficient!
 ________________________________________
